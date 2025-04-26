@@ -87,8 +87,6 @@ const RegisterPage = () => {
                     </div>
 
                     <form onSubmit={handleSubmit}>
-                        {/* Поле для ввода email или телефона */}
-                        {/* Поле для ввода email или телефона */}
                         {isEmail ? (
                             <div className="mb-4">
                                 <label className="block text-sm text-gray-700 mb-2">Почта</label>
